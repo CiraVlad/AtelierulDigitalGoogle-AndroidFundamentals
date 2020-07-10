@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile_24"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_inbox_24"
+            android:title="Inbox" />
+        <item
+            android:id="@+id/nav_diet"
+            android:icon="@drawable/ic_diet_24"
+            android:title="Diet" />
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_send_24"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

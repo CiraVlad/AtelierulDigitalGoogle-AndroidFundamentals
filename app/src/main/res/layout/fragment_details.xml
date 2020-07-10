@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="24dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_view_diet_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="24dp"
+        android:text="Diet name"
+        android:textColor="@android:color/black"
+        android:textSize="32dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_View_diet_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diet description"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_diet_name" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_View_diet_start_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diet start date"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_View_diet_description" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_View_diet_end_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diet end date"
+        android:textColor="@android:color/black"
+        android:textSize="18dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_View_diet_start_date" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
